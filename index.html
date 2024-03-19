@@ -20,40 +20,48 @@ border-radius: 20px;
 max-width: fit-content;
 margin: 50px auto;
 padding: 20px;
-background-color:/* rgba(61, 23, 163, 0.91);rgba(105, 38, 222, 0.89);rgba(162, 182, 47, 1);*/
-background: rgb(63,68,251);
-background: radial-gradient(circle, rgba(63,68,251,1) 27%, rgba(230,71,248,1) 66%, rgba(246,71,71,1) 89%, rgba(252,70,70,1) 96%); 
+/*background-color:rgba(12, 70, 255, 0.81);*/
+background: rgb(34,38,195);
+background: linear-gradient(0deg, rgba(34,38,195,1) 17%, rgba(238,45,253,1) 94%); 
 border-radius: 10px;
 box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 text-align: center;
 color: white;
+text-shadow: 1px 1px 3px rgba(3, 3, 0.5, 1); /* Add a shadow for depth */
+
 }
 
 .span{
     font-weight: bolder;
 text-align: justify; 
-font-family: 'Courier New', Courier, monospace;
-color: goldenrod; /* Set the color to a golden shade */
-    text-shadow: 1px 1px 3px rgba(3, 3, 0.5, 1); /* Add a shadow for depth */
-    font-family: 'Times New Roman', Times, serif; /* Use a serif font for a classy look */
+
+font-family: 'Times New Roman', Times, serif;
+color:rgb(195,67,34);
+color: linear-gradient(0deg, rgba(195,67,34,0.9850139885055584) 38%, rgba(250,253,45,1) 92%); ;
+text-shadow: 1px 1px 3px rgba(3, 3, 3, 2);
+
+
 }
 .h3{
 
+    color:  goldenrod;
+    text-shadow: 1px 1px 3px rgba(3, 3, 0.5, 1); /* Add a shadow for depth */
+    font-family: 'Times New Roman', Times, serif; /* Use a serif font for a classy look */
+    text-shadow: 1px 1px 3px rgba(3, 3, 0.5, 1); /* Add a shadow for depth */
 
 
-    color: #A9A9A9; /* Darker silver color */
-    text-shadow: 1px 1px 10px rgba(0, 0, 0, 7); /* Add a shadow for depth */
-    font-family: Arial, sans-serif; /* Use a sans-serif font for a modern look */
-    font-family: 'Roboto', sans-serif;
+    
 }
 
 
 
 .p1{
 
-color:black;
+color:white;
 font-size:larger;
-font font-weight:
+font font: weight 20px;
+text-shadow: 1px 1px 3px rgba(3, 3, 0.5, 1); /* Add a shadow for depth */
+
   
 }
 
@@ -63,6 +71,8 @@ font font-weight:
     margin: 0 auto; /* Center text */
     animation: typing 10s ease-in-out forwards; /* Animation duration and timing function */
     opacity: 8; /* Start with text hidden */
+    text-shadow: 1px 1px 3px rgba(3, 3, 0.5, 1); /* Add a shadow for depth */
+
 }
 
 @keyframes typing {
@@ -73,22 +83,75 @@ font font-weight:
     100% {
         transform: translateX(5); /* Move to original position */
     }
+    text-shadow: 1px 1px 3px rgba(3, 3, 0.5, 1); /* Add a shadow for depth */
+
+}
+.strong{
+    color:  goldenrod;
+    text-shadow: 1px 1px 3px rgba(3, 3, 0.5, 1); /* Add a shadow for depth */
+    font-family: 'Times New Roman', Times, serif; /* Use a serif font for a classy look */
+}
+.h2{
+    color: ;
+    color: rgba(255, 0, 255, 1);
+    text-shadow: 1px 1px 3px rgba(3, 3, 0.5, 0.5);
+color: ;
 }
 
-@media screen and (max-width: 600px) {
-  p.p1 {
-    margin: 20px auto;
+.done{
+    color:  rgb(34,195,157);
+color: linear-gradient(0deg, rgba(34,195,157,0.9850139885055584) 6%, rgba(195,34,193,0.9850139885055584) 55%, rgba(195,34,193,0.9850139885055584) 61%); 
+    text-shadow: 1px 1px 3px rgba(3, 3, 0.5, 1); /* Add a shadow for depth */
+    font-family: 'Times New Roman', Times, serif; /* Use a serif font for a classy look */
+}
+
+.contact-info{
+
+    color:  goldenrod;
+    text-shadow: 1px 1px 3px rgba(3, 3, 0.5, 1); /* Add a shadow for depth */
+    font-family: 'Times New Roman', Times, serif; /* Use a serif font for a classy look */  
+
+}
+
+.p{
+
+    color: rgb(15, 206, 219);
+}
+
+
+@media screen and (max-width: 768px) {
+  /* Your CSS rules for mobile devices here */
+  .typing-text {
+    /* Example styles for mobile devices */
+    font-size: 16px;
+    padding: 10px;
   }
+  .p{
+
+    font-size: small;
+  }
+  .h1 {
+    /* Example styles for h1 on mobile devices */
+    font-size: small;
+  }
+
+  .h2 {
+    /* Example styles for h2 on mobile devices */
+    font-size: small;
+  }
+
+  .p1 {
+    /* Example styles for p1 on mobile devices */
+    font-size: small;
+  }
+  .final{
+    font-size:x-small;
+
+  }
+/*fire*/
+
+ 
 }
-
-
-
-
-
-
-
-
-
 
 
 
@@ -99,11 +162,13 @@ font font-weight:
     .container {
         margin: 20px auto;
     }
+    text-shadow: 1px 1px 3px rgba(3, 3, 0.5, 1); /* Add a shadow for depth */
+
 }
 </style>
 </head>
 <body>
-   
+
 <div class="container">
     <img src="photo.png"  class="photo" alt="alps">
     <div class="main">
@@ -111,15 +176,28 @@ font font-weight:
    </h3>     
    <dev class="typing-text">
   <h1><span class="span">  state level Seminar Invitation</span></h1>
-  <p1 class="p1"> <strong> Department of Computer Science at SBK College, Aruppukottai, cordially invites you to a State level Seminar.</strong></p1>
+  <section id="about" class="about-section">
+    <h2 class="h2">About the Seminar</h2>
+    <p class="final">Welcome to the State Level Seminar on<strong class="done"> Network Simulation</strong> <br>organized by the <strong class="strong"> Department of Computer Science at SBK College</strong>, Aruppukottai.<br> This seminar aims to provide insights into<br> the latest developments in network simulation technology.<br></p>
+    <p class="final">Our esteemed resource person for the seminar is Mr.<strong class="strong"> M. Ragunathan, MSc., M.Tech<br></strong><br>, who will be sharing valuable knowledge and expertise in this field.</p>
+</section>
+  <p1 class="p1"> <strong class="strong"> Department of Computer Science</strong> at SBK College,<br> Aruppukottai, cordially invites you to a State level Seminar.</strong></p1>
 </dev>
-  <p>Date: 26th April 2024</p>
+  <p class="p">Date: 26th April 2024</p>
 
-  <p>Time: 10:00 AM - 4:00 PM</p>
-  <p>Venue: SBK College Auditorium</p>
+  <p class="p">Time: 10:00 AM - 4:00 PM</p>
+  <p class="p">Venue: SBK College Auditorium</p>
   <p>Please join us for an informative session on the latest trends in computer science and technology.</p>
-  <div class="contact-info">For further information, please contact: <br> Balamurugan, HOD, Department of Computer Science <br> Contact No: 9940500574</div>
+  <div class="contact-info">For further information, please contact: <br> Balamurugan ME., HOD, Department of Computer Science <br> Contact No: 9940500574</div>
 </div>
 </div>
+</div>
+</div>
+
+
 </body>
 </html>
+
+
+
+      
